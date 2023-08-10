@@ -5,7 +5,7 @@ import axios from "axios";
 import { useEffect, useState } from "react"
 import { useNavigate, useParams } from "react-router-dom";
 
-export function Edit_Details(){
+export function Edit_Details(){     //edit
     const {empid}=useParams();
     const[first_name,setFirst_name]=useState('');
     const[last_name,setLast_name]=useState('');
